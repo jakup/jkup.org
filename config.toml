@@ -1,3 +1,99 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = 'https://jkup.org'
+title = 'jkup.org'
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses=true
+
+[params]
+  author = "Jacob Kupersmith"
+  info = 'Full Stack Developer'
+  description = "Jacob Kupersmith's personal website"
+  keywords = "blog,fullstack,developer,personal"
+  avatarurl = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32.png"
+  favicon_16 = "/img/favicon-16.png"
+
+  # footercontent = "Enter a text here."
+  hideFooter = true
+  hideCredits = true
+  hideCopyright = true
+  # since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/syntax.css"]
+  #customSCSS = ["scss/custom.scss"]
+  #customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jakup/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin"
+  weight = 2
+  url = "https://www.linkedin.com/in/jacob-kupersmith-0a807529/"
+#[[params.social]]
+#  name = "Twitter"
+#  icon = "fa fa-twitter fa-2x"
+#  weight = 3
+#  url = "https://twitter.com/johndoe/"
+
+[languages.en]
+languageName = ":us:"
+
+# Menu links
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+#[[languages.en.menu.main]]
+#  name = "Contact"
+#  weight = 5
+#  url  = "contact/"
+
+[languages.zh-cn]
+languageName = ":cn:"
+
+[languages.zh-cn.params]
+  info = "全栈工程师"
+  keywords = "博客,全栈工程师,软件开发师,个人网站"
+  avatarurl = "/img/favicon-zh.svg"
+
+[[languages.zh-cn.menu.main]]
+  name = "关于"
+  weight = 1
+  url = "about/"
+
+[[languages.zh-cn.menu.main]]
+  name = "博客"
+  weight = 2
+  url = "posts/"
+
+#[[languages.zh-cn.menu.main]]
+#  name = "联系"
+#  weight = 5
+#  url = "contact/"
