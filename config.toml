@@ -35,6 +35,9 @@ pygmentsUseClasses=true
   #customSCSS = ["scss/custom.scss"]
   #customJS = ["js/custom.js"]
 
+[params.googleTagManager]
+  id = "G-1VC0DWF0GB"
+
 [taxonomies]
   category = "categories"
   series = "series"
