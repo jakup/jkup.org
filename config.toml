@@ -13,8 +13,8 @@ pygmentsUseClasses=true
 
 [params]
   author = "Jacob Kupersmith"
-  info = 'Full Stack Developer'
-  description = "Jacob Kupersmith's personal website"
+  info = "Full Stack Developer"
+  description = "jkup.org"
   keywords = "jacob kupersmith,full stack developer,blog,personal"
   avatarurl = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32.png"
